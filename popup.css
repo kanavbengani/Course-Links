@@ -1,0 +1,93 @@
+html,
+    body {
+      font-family: "Open Sans", sans-serif;
+      font-size: 15px;
+      margin: 0;
+      min-height: 180px;
+      padding: 0;
+      width: 384px;
+      background-color: #000000;
+      border-radius: 20px;
+    }
+
+    h1 {
+      font-family: "Menlo", monospace;
+      font-size: 22px;
+      font-weight: 400;
+      margin: 0;
+      color: #91eef1;
+    }
+
+    a:link,
+    a:visited {
+      color: #91eef1;
+      outline: 0;
+      text-decoration: none;
+    }
+
+    img {
+      width: 30px;
+    }
+
+    .modal-header {
+      align-items: center;
+      border-bottom: 0.5px solid #91eef1;
+      margin-bottom: 15px;
+    }
+
+    .input_div {
+      padding: 0 10px;
+    }
+
+    .input_div .input {
+      font-family: "Open Sans", sans-serif;
+      padding: 0.5rem 1rem;
+      outline: none;
+      border: none;
+      height: 20px;
+      background-color:#91eef1;
+      width: 200px;
+      border-radius: 10px;
+    }
+
+    .addButton {
+      font-family: "Open Sans";
+      font-size: 15px;
+      height: 37px;
+      width: 37px;
+      border-radius: 20px;
+      outline: none;
+      border: none;
+      background-color: #91eef1;
+      color: black;
+      margin: 0.1px;
+    }
+
+    .modal-icons {
+      margin-top: 15px;
+      border-top: 0.5px solid #91eef1;
+    }
+
+    .title {
+      padding: 10px;
+    }
+
+    .version {
+      color: rgba(0, 247, 255, 0.602);
+      font-size: 18px;
+    }
+
+    .flex-container {
+      flex-direction: column;
+      padding-left: 10px;
+    }
+
+    .flex {
+      opacity: 1;
+      transition: opacity 0.2s ease-in-out;
+      width: 200px;
+    }
+
+    .flex:hover {
+      opacity: 0.8;
+    }
