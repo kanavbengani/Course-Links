@@ -43,48 +43,8 @@ html,
       font-size: 18px;
     }
 
-    .inputAndAdd {
-      flex-direction: row-reverse;
-      justify-content: center;
-      align-items: center;
-    }
-
-    .inputAndAdd .input_div {
-      padding: 0 10px;
-      justify-content: space-between;
-      align-items: center;
-      flex-direction: column;
-    }
-
-    .input_div .input {
-      font-family: "Open Sans", sans-serif;
-      padding: 0.5rem 1rem;
-      outline: none;
-      border: none;
-      height: 20px;
-      background-color:#91eef1;
-      width: 200px;
-      border-radius: 10px;
-      margin-top: 5px;
-    }
-
-    .addButton {
-      height: 40px;
-      width: 40px;
-      border-radius: 15px;
-      outline: none;
-      border: none;
-      background-color: #91eef1;
-      color: black;
-    }
-
-    .input_div .addButton:hover {
-      opacity: 0.8;
-    }
-
     .flex-container {
       margin-top: 15px;
-      border-top: 0.5px solid #91eef1;
       flex-direction: column;
       align-items: center;
       justify-content: center;
